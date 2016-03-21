@@ -14,17 +14,14 @@ QMAKE_CXXFLAGS += -openmp
 QMAKE_LFLAGS +=/STACK:32000000
 SOURCES += main.cpp\
         mainwindow.cpp \
-    shark.cpp \
     block.cpp \
     world.cpp
 
 HEADERS  += mainwindow.h \
     block.h \
-    world.h \
-    shark.h
+    world.h
 
-FORMS    += mainwindow.ui \
-    shark.ui
+FORMS    += mainwindow.ui
 
 INCLUDEPATH+=C:\\opencv\\build\\install\\include
 

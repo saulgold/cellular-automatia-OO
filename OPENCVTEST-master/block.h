@@ -11,7 +11,7 @@ public:
     int deathAge;
     int randomDeathProbability;
     int breedingAge;
-    cv::Scalar blockColour;
+    cv::Vec3b blockColour;
 
     void setShark(void);
     void setFish(void);
